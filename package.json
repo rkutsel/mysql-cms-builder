@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  },
+  "name": "mysql-cms-builder",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkutsel/mysql-cms-builder.git"
+  },
+  "author": "Roman Kutsel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rkutsel/mysql-cms-builder/issues"
+  },
+  "homepage": "https://github.com/rkutsel/mysql-cms-builder#readme"
+}
