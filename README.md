@@ -12,9 +12,9 @@ A simple cli-based Content Management System (CMS) tool with MySQL backend. This
 
 > NOTE: Make sure you have `Node.JS ~v16.14.2` and `NPM ~8.5.0` installed. You can quickly check this by running `node -v` for Node.JS and `npm -v` for NPM in your terminal. Additionally it requires `mysql ~8.0.29`
 
-Once the above is confirmed, clone the repo `git clone git@github.com:rkutsel/mysql-cms-builder.git` and install the dependencies by running `npm i` in your terminal. I recommend you install them locally. A successful installation should look somewhat similar to the one bellow:
-
 ### Install local dependencies
+
+Once the above is confirmed, clone the repo `git clone git@github.com:rkutsel/mysql-cms-builder.git` and install the dependencies by running `npm i` in your terminal. I recommend you install them locally. A successful installation should look somewhat similar to the one bellow:
 
 ```bash
 added 67 packages, and audited 68 packages in 1s
