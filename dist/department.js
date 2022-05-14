@@ -14,7 +14,6 @@ class Department {
 		addDepartment(answer).then((data) => console.table(data));
 	}
 	async chooseDepartment(title, salary) {
-		console.log(title, salary);
 		const selectDepartment = `SELECT name FROM department`;
 		const departmentId = await sqlRenderedSelect(selectDepartment);
 		const question = questions.chooseDepartment;

@@ -42,7 +42,6 @@ class Employee {
 
 	async selectEmployee(answer) {
 		const { managerName } = answer;
-		console.log(managerName);
 		const selectId = `SELECT id FROM employee WHERE first_name = ? && last_name = ?;`;
 		const selectArg = [managerName.split(" ")[0], managerName.split(" ")[1]];
 		const managerId = await sqlPreparedSelect(selectId, selectArg);

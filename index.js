@@ -116,6 +116,7 @@ async function updateEmployee() {
 					const { roleName } = answer;
 					console.log(roleName, employeeRoleId);
 					newEmployee.updateEmployeeRole(roleName, employeeRoleId);
+					return initialPrompt();
 				});
 			});
 	};
